@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul.products {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+ul.products li {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul.products li img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.products li h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+ul.products li p {
+    color: #666;
+}
+
+ul.products li a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.products li a:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    width: 100%;
+}
