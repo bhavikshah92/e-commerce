@@ -15,7 +15,7 @@ $products = $stmt->fetchAll();
             <img src="<?php echo htmlspecialchars($product['image']); ?>" alt="<?php echo htmlspecialchars($product['name']); ?>">
             <h2><?php echo htmlspecialchars($product['name']); ?></h2>
             <p><?php echo htmlspecialchars($product['description']); ?></p>
-            <p>$<?php echo htmlspecialchars($product['price']); ?></p>
+            <p>Rs. <?php echo htmlspecialchars($product['price']); ?></p>
             <a href="edit_product.php?id=<?php echo $product['id']; ?>">Edit</a>
             <a href="delete_product.php?id=<?php echo $product['id']; ?>">Delete</a>
         </li>
